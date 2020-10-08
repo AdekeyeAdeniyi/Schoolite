@@ -1,0 +1,30 @@
+{
+  "name": "schoolite",
+  "version": "1.0.0",
+  "description": "schoolite educational platform",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass sass/app.scss  css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdekeyeAdeniyi/Schoolite.git"
+  },
+  "keywords": [
+    "impact",
+    "learn",
+    "schoolite",
+    "web",
+    "developer"
+  ],
+  "author": "rede-teams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdekeyeAdeniyi/Schoolite/issues"
+  },
+  "homepage": "https://github.com/AdekeyeAdeniyi/Schoolite#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "node-sass": "^4.14.1"
+  }
+}
