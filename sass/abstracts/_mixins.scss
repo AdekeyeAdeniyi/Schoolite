@@ -1,0 +1,20 @@
+// MEDIA QUERIES BREAK-POINT MANAGER
+
+@mixin respond($breakpoint){
+    @if $breakpoint == phone-land{
+        // Phone( Landscaped)
+        @media (min-width: 36em ){ @content }; //36em = 576px 
+    }
+    @if $breakpoint == tab{
+        // Tablets
+        @media (min-width: 48em){ @content };  //48em = 768px
+    }
+    @if $breakpoint == desktop{
+        // Desktop
+        @media (min-width: 62em){ @content };  //62em = 992px
+    }
+    @if $breakpoint == desktop-lg{
+        // Large Screens
+        @media (min-width: 75em){ @content }; //75em = 1200px
+    }
+}

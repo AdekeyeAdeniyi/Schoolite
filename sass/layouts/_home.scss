@@ -1,0 +1,16 @@
+section{
+    padding: 4.2rem 0;
+}
+
+.section{
+
+    &-services{
+        &__cards{
+            margin-top: 8rem;
+        }
+    }
+
+    &-fame{
+        background-color: $primary;
+    }
+}

@@ -1,0 +1,53 @@
+/*--header--*/
+
+.blog-header {
+    background-image: url(../images/blog.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*--heading--*/
+
+.blog-h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 15%;
+}
+
+/*--blog article--*/
+
+.select-article {
+    background-color: #fff;
+    margin-top: -120px;
+    display: flex;
+    border-radius: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.article-icon-first {
+    margin-left: 42px;
+}
+
+.article-icon-first:hover{
+    & svg {
+        & path {
+            fill: #000000;
+            transition: all 0.8s ease-out;
+        }
+    }
+    .blog-paragraph {
+        color: #000000;
+    }
+}
+
+.blog-paragraph {
+    color: #6C63FF;
+}
+
+.article-icon-first a {
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+// Color
+$primary:               #29ABE2;
+$white:                 #FFFFFF;
+$dark:                  #1A1A1A;
+// typography
+$font-size-base:        1rem;
+
+$h1-font-size:          $font-size-base * 4;
+$h2-font-size:          $font-size-base * 2.2;
+$h3-font-size:          $font-size-base * 1.6;
+$h4-font-size:          $font-size-base * 1.2;
+
+$font-size-md:          $font-size-base * 0.9;
+$font-size-sm:          $font-size-base * 0.8;
+$font-size-lg:          $font-size-base * 1.1;
+
+// button and form
+// to affect all input buttons and buttons
+$input-btn-padding-y:  .5rem;
+$input-btn-padding-x:   2rem;
+
+$input-btn-padding-y-lg:  .5rem;
+$input-btn-padding-x-lg:   4rem;
+
+$input-btn-padding-y-sm:  .2rem;
+$input-btn-padding-x-sm:   1rem;
