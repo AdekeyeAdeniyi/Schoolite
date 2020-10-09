@@ -1,11 +1,13 @@
 // Hero section
-
+.header{
+    height: 100vh;
+}
 .hero-box{
     display: grid;
     place-items: center;
-    height: 75vh;
+    height: 90%;
 
     p{
-        width: 80%;
+        width: 70%;
     }
 }
